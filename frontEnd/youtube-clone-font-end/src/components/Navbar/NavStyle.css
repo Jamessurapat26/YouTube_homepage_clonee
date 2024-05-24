@@ -1,0 +1,117 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .-star {
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar .-ham-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#navbar .-logo {
+    padding: 0 16px;
+}
+
+#navbar .-ham-btn:hover {
+    background-color: #f2f2f2;
+}
+
+#navbar .-ham-btn img {
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+#navbar .-center {
+    display: grid;
+    grid-template-columns: 640px 40px;
+    justify-content: end;
+    align-items: center;
+}
+
+#navbar .-end {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .-search-input {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: none;
+    padding-left: 1rem;
+}
+
+#navbar .-search {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: auto 64px;
+    justify-content: end;
+    align-items: center;
+}
+
+#navbar .-mic {
+    /* margin-left: auto; */
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+}
+
+#navbar .-search-btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 0 40px 40px 0;
+    border-left: 0;
+    cursor: pointer;
+}
+
+#navbar .-search-box {
+    width: 514px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+    overflow: hidden;
+}
+
+#navbar .-search-input:focus-visible {
+    outline: none;
+}
+
+#navbar .-end-item {
+    width: 40px;
+    height: 40px;
+    border-color: #fff;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar .-end-item:hover {
+    border-color: #f8f8f8;
+    cursor: pointer;
+}

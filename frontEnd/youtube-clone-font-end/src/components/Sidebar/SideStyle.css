@@ -1,0 +1,44 @@
+#sidebar {
+    overflow: auto;
+    max-width: 100%;
+    padding: 12px;
+}
+
+.side,
+.-side-sec {
+    display: grid;
+    align-items: center;
+    grid-auto-rows: 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.side .-item,
+.-side-sec .-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 12px;
+    border-radius: 10px;
+}
+
+.-side-sec .-item {
+    grid-template-columns: 48px auto 16px;
+}
+
+.side .-item:hover,
+.-side-sec .-item:hover {
+    background-color: #f2f2f2;
+}
+
+.side .-text,
+.-side-sec .-text {
+    font-size: 1.4rem;
+    line-height: 10px;
+}
+
+.-side-sec .-item .-icon img {
+    width: 24px;
+    border-radius: 10em;
+}
